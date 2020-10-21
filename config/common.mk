@@ -206,6 +206,7 @@ $(call inherit-product, vendor/aosp/config/rro_overlays.mk)
 # Navbar
 PRODUCT_PACKAGES += \
     GesturalNavigationOverlayLong \
-    GesturalNavigationOverlayMedium
+    GesturalNavigationOverlayMedium \
+    GesturalNavigationOverlayHidden
 
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
