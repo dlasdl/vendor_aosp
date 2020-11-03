@@ -109,7 +109,8 @@ PRODUCT_PACKAGES += \
 
 # Themes
 PRODUCT_PACKAGES += \
-    ThemePicker
+    ThemePicker \
+    DefaultThemesStub
 
 # Dex preopt
 PRODUCT_DEXPREOPT_SPEED_APPS += \
