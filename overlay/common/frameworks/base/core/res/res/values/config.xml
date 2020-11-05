@@ -66,5 +66,8 @@
 
     <!-- Turn on dark theme by default -->
     <integer name="config_defaultNightMode">2</integer>
+	    
+    <!-- Whether or not to add a "people" notifications section -->
+    <bool name="config_usePeopleFiltering">true</bool>
 
 </resources>
