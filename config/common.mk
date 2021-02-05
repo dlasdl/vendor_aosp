@@ -186,6 +186,9 @@ $(call inherit-product, vendor/aosp/config/fonts.mk)
 # GApps
 $(call inherit-product, vendor/gapps/config.mk)
 
+# Packages
+include vendor/aosp/config/packages.mk
+
 # OTA
 $(call inherit-product, vendor/aosp/config/ota.mk)
 
