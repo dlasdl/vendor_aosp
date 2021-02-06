@@ -107,6 +107,10 @@ PRODUCT_PACKAGES += \
     StitchImage \
     StitchImageService
 
+# Themes
+PRODUCT_PACKAGES += \
+    ThemePicker
+
 # Dex preopt
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     SystemUI \
