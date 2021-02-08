@@ -17,3 +17,8 @@ PRODUCT_PACKAGES += \
     FontSamOverlay \
     FontVictorOverlay
 
+# Pill radius
+PRODUCT_PACKAGES += \
+    GesturalNavigationRadiusLow \
+    GesturalNavigationRadiusVeryLow \
+    GesturalNavigationRadiusHidden
