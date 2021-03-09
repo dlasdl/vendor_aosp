@@ -112,6 +112,10 @@ PRODUCT_PACKAGES += \
     ThemePicker \
     DefaultThemesStub
 
+# Prebuilt Packages
+PRODUCT_PACKAGES += \
+    PixelLauncherOverlay
+
 # Dex preopt
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     SystemUI \
